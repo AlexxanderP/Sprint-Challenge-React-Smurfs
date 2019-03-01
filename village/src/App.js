@@ -50,10 +50,6 @@ class App extends Component {
           });
     };
 
-  newMethod(e) {
-    e.preventDefault();
-  }
-
   render() {
     return (
       <div className="App">
