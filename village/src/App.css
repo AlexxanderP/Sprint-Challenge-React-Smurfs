@@ -1,3 +1,32 @@
 .App {
   text-align: center;
+  box-sizing: border-box;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blue;
+}
+
+.nav-header {
+  color: white;
+  font-size: 3.0rem;
+  padding: 0 15px;
+}
+
+.nav-links-container {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.nav-links-container a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: black;
 }
